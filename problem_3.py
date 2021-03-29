@@ -41,7 +41,10 @@ def lca(n1, n2):
         n1 = n1.parent
         n2 = n2.parent
     return None
-        
+
+""" Time complexity of the solution is O(h), where h = height of the tree;
+as depth can be smaller or equal to the height of the tree. And space complexity
+is O(1), as constant space is used. """
 
 if __name__ == "__main__":
     lca(node_6, node_7)
